@@ -1,0 +1,47 @@
+================================================================================
+                                INVOICE
+================================================================================
+VENDOR DETAILS:
+Acme Cloud Services Ltd.
+742 Evergreen Terrace, Suite 300
+Austin, TX 78701, United States
+Tax ID / EIN: 74-9812401
+Contact: billing@acmecloud.com | Phone: (512) 555-0144
+
+BILL TO:
+Global Logistics Solutions Inc.
+Attn: Accounts Payable Department
+1200 Harbor Boulevard, Floor 14
+Seattle, WA 98101, United States
+
+--------------------------------------------------------------------------------
+INVOICE DETAILS:
+Invoice Number  : INV-2024-9102
+Invoice Date    : 2024-10-18
+Payment Due Date: 2024-11-17
+Currency        : USD
+Payment Status  : Pending
+Payment Terms   : Net 30 days via Direct Deposit or Wire Transfer
+--------------------------------------------------------------------------------
+
+LINE ITEMS BILLED:
+--------------------------------------------------------------------------------
+Item # | Description                                    | Qty | Unit Price | Amount
+--------------------------------------------------------------------------------
+  1    | Dedicated GPU Cloud Cluster (A100 x 4) - Oct    |  1  |  $1,200.00 | $1,200.00
+  2    | High-Throughput Managed PostgreSQL (500 GB)     |  2  |    $150.00 |   $300.00
+  3    | Outbound CDN Bandwidth Overage (TB)             |  3  |     $45.00 |   $135.00
+  4    | Enterprise SLA 24/7 Priority Support Tier       |  1  |    $250.00 |   $250.00
+--------------------------------------------------------------------------------
+
+FINANCIAL SUMMARY:
+--------------------------------------------------------------------------------
+Subtotal Amount: $1,885.00
+State & Local Tax (8.25%): $155.51
+Total Amount Due: $2,040.51 USD
+--------------------------------------------------------------------------------
+
+REMITTANCE INSTRUCTIONS:
+Please remit payment within 30 calendar days. Direct wire instructions available
+upon request. For billing inquiries, email billing@acmecloud.com referencing INV-2024-9102.
+================================================================================

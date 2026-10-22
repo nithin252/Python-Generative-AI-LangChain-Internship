@@ -1,0 +1,47 @@
+Alex Rivera
+Austin, Texas | (512) 555-0199 | alex.rivera.dev@gmail.com
+LinkedIn: linkedin.com/in/alex-rivera-ai | GitHub: github.com/alexrivera-dev
+
+PROFESSIONAL SUMMARY
+Senior AI Engineer and Full-Stack Systems Architect with 5+ years of production experience building high-throughput microservices, LLM prompt engineering pipelines, and resilient distributed databases. Specialized in Pydantic data schemas, Google GenAI SDK, and zero-downtime cloud infrastructure.
+
+CORE TECHNICAL SKILLS
+Languages        : Python, TypeScript, Go, SQL, Bash
+AI & LLM Tools   : Google Gemini API, OpenAI API, LangChain, Pydantic v2, Vector Databases, HuggingFace
+Backend & Cloud  : FastAPI, Express, Docker, Kubernetes, PostgreSQL, Redis, Google Cloud Platform (GCP)
+Testing & DevOps : PyTest, GitHub Actions, CI/CD, Terraform, Postman
+
+PROFESSIONAL EXPERIENCE
+
+Senior AI Systems Engineer | CognitiveFlow Inc. | Austin, TX
+July 2022 – Present
+- Designed and deployed enterprise document extraction pipeline utilizing Google Gemini API and Pydantic v2, processing over 120,000 PDF invoices and contracts monthly with a 99.6% schema compliance rate.
+- Reduced LLM latency by 58% and token expenditure by 40% through strict few-shot prompt optimization and structured JSON schema enforcement.
+- Engineered automated self-repair fallback retry loop that caught malformed JSON outputs and healed schema discrepancies with zero human intervention.
+- Mentored a cohort of 5 junior backend engineers on microservices architecture, automated pytest test harnesses, and prompt defense against injection attacks.
+
+Full Stack Software Engineer | NexaCloud Solutions | Denver, CO
+January 2020 – June 2022
+- Developed scalable REST APIs using Python FastAPI and PostgreSQL, serving 25,000 requests per minute with p95 response time under 120ms.
+- Implemented real-time telemetry dashboards using React, TypeScript, and Tailwind CSS.
+- Automated end-to-end integration test suites using PyTest, increasing overall code coverage from 64% to 92%.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Texas at Austin | Graduated: 2019
+Major: Computer Science | GPA: 3.88 / 4.0
+
+PROFESSIONAL CERTIFICATIONS
+- Google Cloud Certified Professional Cloud Architect (2023)
+- DeepLearning.AI Prompt Engineering & Generative AI Specialization (2022)
+- Certified Kubernetes Application Developer (CKAD) (2021)
+
+KEY PROJECTS
+Structured LLM Document Extractor (2024)
+- Open-source CLI and API service converting invoices and resumes into strictly validated JSON schemas.
+- Technologies: Python 3.11, Google GenAI SDK, Pydantic v2, PyTest, Docker.
+- Repository: github.com/alexrivera-dev/structured-llm-extractor
+
+Autonomous Code Review Bot (2023)
+- GitHub App analyzing pull requests for security vulnerabilities and style anomalies using few-shot prompting.
+- Technologies: Python, FastAPI, GitHub API, Google Gemini.

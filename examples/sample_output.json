@@ -1,0 +1,137 @@
+{
+  "invoice_example": {
+    "invoice_number": "INV-2024-9102",
+    "invoice_date": "2024-10-18",
+    "due_date": "2024-11-17",
+    "vendor_name": "Acme Cloud Services Ltd.",
+    "customer_name": "Global Logistics Solutions Inc.",
+    "currency": "USD",
+    "subtotal": 1885.0,
+    "tax": 155.51,
+    "total": 2040.51,
+    "line_items": [
+      {
+        "description": "Dedicated GPU Cloud Cluster (A100 x 4) - Oct",
+        "quantity": 1.0,
+        "unit_price": 1200.0,
+        "amount": 1200.0
+      },
+      {
+        "description": "High-Throughput Managed PostgreSQL (500 GB)",
+        "quantity": 2.0,
+        "unit_price": 150.0,
+        "amount": 300.0
+      },
+      {
+        "description": "Outbound CDN Bandwidth Overage (TB)",
+        "quantity": 3.0,
+        "unit_price": 45.0,
+        "amount": 135.0
+      },
+      {
+        "description": "Enterprise SLA 24/7 Priority Support Tier",
+        "quantity": 1.0,
+        "unit_price": 250.0,
+        "amount": 250.0
+      }
+    ],
+    "payment_status": "Pending"
+  },
+  "resume_example": {
+    "full_name": "Alex Rivera",
+    "email": "alex.rivera.dev@gmail.com",
+    "phone": "(512) 555-0199",
+    "location": "Austin, Texas",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Go",
+      "SQL",
+      "Bash",
+      "Google Gemini API",
+      "OpenAI API",
+      "LangChain",
+      "Pydantic v2",
+      "Vector Databases",
+      "HuggingFace",
+      "FastAPI",
+      "Express",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "Redis",
+      "Google Cloud Platform (GCP)",
+      "PyTest",
+      "GitHub Actions",
+      "CI/CD",
+      "Terraform",
+      "Postman"
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "University of Texas at Austin",
+        "graduation_year": "2019",
+        "field_of_study": "Computer Science",
+        "gpa": "3.88 / 4.0"
+      }
+    ],
+    "experience": [
+      {
+        "job_title": "Senior AI Systems Engineer",
+        "company": "CognitiveFlow Inc.",
+        "start_date": "July 2022",
+        "end_date": "Present",
+        "location": "Austin, TX",
+        "responsibilities": [
+          "Designed and deployed enterprise document extraction pipeline utilizing Google Gemini API and Pydantic v2, processing over 120,000 PDF invoices and contracts monthly with a 99.6% schema compliance rate.",
+          "Reduced LLM latency by 58% and token expenditure by 40% through strict few-shot prompt optimization and structured JSON schema enforcement.",
+          "Engineered automated self-repair fallback retry loop that caught malformed JSON outputs and healed schema discrepancies with zero human intervention.",
+          "Mentored a cohort of 5 junior backend engineers on microservices architecture, automated pytest test harnesses, and prompt defense against injection attacks."
+        ]
+      },
+      {
+        "job_title": "Full Stack Software Engineer",
+        "company": "NexaCloud Solutions",
+        "start_date": "January 2020",
+        "end_date": "June 2022",
+        "location": "Denver, CO",
+        "responsibilities": [
+          "Developed scalable REST APIs using Python FastAPI and PostgreSQL, serving 25,000 requests per minute with p95 response time under 120ms.",
+          "Implemented real-time telemetry dashboards using React, TypeScript, and Tailwind CSS.",
+          "Automated end-to-end integration test suites using PyTest, increasing overall code coverage from 64% to 92%."
+        ]
+      }
+    ],
+    "certifications": [
+      "Google Cloud Certified Professional Cloud Architect",
+      "DeepLearning.AI Prompt Engineering & Generative AI Specialization",
+      "Certified Kubernetes Application Developer (CKAD)"
+    ],
+    "projects": [
+      {
+        "title": "Structured LLM Document Extractor",
+        "description": "Open-source CLI and API service converting invoices and resumes into strictly validated JSON schemas.",
+        "technologies": [
+          "Python 3.11",
+          "Google GenAI SDK",
+          "Pydantic v2",
+          "PyTest",
+          "Docker"
+        ],
+        "link": "github.com/alexrivera-dev/structured-llm-extractor"
+      },
+      {
+        "title": "Autonomous Code Review Bot",
+        "description": "GitHub App analyzing pull requests for security vulnerabilities and style anomalies using few-shot prompting.",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "GitHub API",
+          "Google Gemini"
+        ],
+        "link": null
+      }
+    ]
+  }
+}

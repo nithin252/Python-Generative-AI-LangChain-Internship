@@ -1,0 +1,32 @@
+{
+  "invoice_number": "INV-2024-9102",
+  "invoice_date": "2024-10-18",
+  "due_date": "2024-11-17",
+  "vendor_name": "Acme Cloud Services Ltd.",
+  "customer_name": "Global Logistics Solutions Inc.",
+  "currency": "USD",
+  "subtotal": 1696.5,
+  "tax": 188.5,
+  "total": 1885.0,
+  "line_items": [
+    {
+      "description": "Dedicated GPU Cloud Cluster (A100 x 4) - Oct",
+      "quantity": 1.0,
+      "unit_price": 1200.0,
+      "amount": 1200.0
+    },
+    {
+      "description": "High-Throughput Managed PostgreSQL (500 GB)",
+      "quantity": 2.0,
+      "unit_price": 150.0,
+      "amount": 300.0
+    },
+    {
+      "description": "Outbound CDN Bandwidth Overage (TB)",
+      "quantity": 3.0,
+      "unit_price": 45.0,
+      "amount": 135.0
+    }
+  ],
+  "payment_status": "Pending"
+}

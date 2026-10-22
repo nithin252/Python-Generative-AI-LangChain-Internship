@@ -1,0 +1,69 @@
+{
+  "full_name": "Alex Rivera",
+  "email": "alex.rivera.dev@gmail.com",
+  "phone": "+1 (555) 382-9011",
+  "location": "Austin, TX",
+  "skills": [
+    "Python",
+    "Pydantic",
+    "FastAPI",
+    "Docker",
+    "PostgreSQL",
+    "Google GenAI SDK",
+    "LangChain",
+    "TypeScript",
+    "React",
+    "PyTest"
+  ],
+  "education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "University of Texas at Austin",
+      "graduation_year": "2022",
+      "field_of_study": "Computer Science",
+      "gpa": "3.9 / 4.0"
+    }
+  ],
+  "experience": [
+    {
+      "job_title": "Senior AI Systems Engineer",
+      "company": "CognitiveFlow Inc.",
+      "start_date": "July 2022",
+      "end_date": "Present",
+      "location": "Austin, TX (Hybrid)",
+      "responsibilities": [
+        "Designed production document parsing pipeline handling 50k+ PDFs/month with 99.4% schema compliance.",
+        "Implemented few-shot prompt templates and Pydantic v2 validation guardrails for financial extracts.",
+        "Reduced end-to-end extraction latency from 4.2s to 1.1s via async streaming and token optimization."
+      ]
+    },
+    {
+      "job_title": "AI/Software Engineering Intern",
+      "company": "Datheon AI Labs",
+      "start_date": "May 2021",
+      "end_date": "August 2021",
+      "location": "Remote",
+      "responsibilities": [
+        "Built automated test suites and validation harnesses for structured LLM outputs.",
+        "Developed CLI utilities and interactive dashboards for model benchmark comparisons."
+      ]
+    }
+  ],
+  "certifications": [
+    "Google Cloud Certified Professional Cloud Architect",
+    "DeepLearning.AI Generative AI for Software Engineers"
+  ],
+  "projects": [
+    {
+      "title": "Structured LLM Prompt Pipeline & JSON Extractor",
+      "description": "Production-grade document extraction framework with few-shot prompting, schema repair, and Pydantic v2 validation.",
+      "technologies": [
+        "Python 3.11",
+        "Google GenAI SDK",
+        "Pydantic v2",
+        "PyTest"
+      ],
+      "link": "github.com/datheon/structured-llm-extractor"
+    }
+  ]
+}

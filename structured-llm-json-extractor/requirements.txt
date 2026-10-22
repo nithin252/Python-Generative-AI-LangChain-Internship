@@ -1,0 +1,14 @@
+# Datheon Internship Task 1: Structured LLM Prompt Pipeline & JSON Extractor
+# Compatible with Python 3.10, 3.11, 3.12+
+
+# Official Google GenAI SDK (modern replacement for google-generativeai)
+google-genai>=2.0.0
+
+# Pydantic v2 for strict runtime data validation and schema generation
+pydantic>=2.7.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# Automated testing suite
+pytest>=8.0.0

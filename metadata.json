@@ -1,0 +1,6 @@
+{
+  "name": "Structured LLM Prompt Pipeline & JSON Extractor",
+  "description": "Production-grade structured document extraction pipeline using Google Gemini API, parameterized few-shot prompts, and Pydantic v2 validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
